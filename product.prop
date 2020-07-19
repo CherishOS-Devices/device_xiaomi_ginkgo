@@ -97,6 +97,9 @@ ro.vendor.qti.sys.fw.bservice_enable=true
 # Netflix
 ro.netflix.bsp_rev=Q6125-17995-1
 
+# Hack for Youtube
+sys.display-size=3840x2160
+
 # Radio/IMS
 DEVICE_PROVISIONED=1
 persist.dbg.volte_avail_ovr=1
