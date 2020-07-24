@@ -46,6 +46,11 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_SHARED_LIBRARY)
 
+HAL_PATH := hardware/qcom-caf/sm8150_ginkgo
+include $(call all-makefiles-under,$(HAL_PATH)/audio)
+include $(call all-makefiles-under,$(HAL_PATH)/display)
+include $(call all-makefiles-under,$(HAL_PATH)/media)
+
 # A/B builds require us to create the mount points at compile time.
 # Just creating it for all cases since it does not hurt.
 FIRMWARE_MOUNT_POINT := $(TARGET_OUT_VENDOR)/firmware_mnt
