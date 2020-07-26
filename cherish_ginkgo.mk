@@ -14,8 +14,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 $(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
+
+#cherish official
+export CHERISH_BUILD_TYPE:= OFFICIAL
 
 #GAPPS
 TARGET_GAPPS_ARCH := arm64
@@ -24,7 +27,7 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_ginkgo
+PRODUCT_NAME := cherish_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8
