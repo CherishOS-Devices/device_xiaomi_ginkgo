@@ -52,7 +52,7 @@ void property_override(string prop, string value)
 void vendor_load_properties()
 {
     string device, model, desc;
-    string fp = "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys";
+    string fp = "google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys";
 
     string region = GetProperty("ro.boot.hwc", "");
     string hwversion = GetProperty("ro.boot.hwversion", "");
