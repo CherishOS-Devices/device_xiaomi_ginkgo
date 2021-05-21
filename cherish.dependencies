@@ -17,19 +17,19 @@
 	{
 		"remote": "github",
 		"repository": "ArrowOS/android_hardware_qcom_display",
-		"target_path": "hardware/qcom-caf/sm8150_ginkgo/display",
+		"target_path": "hardware/qcom-caf/sm8150/display",
                 "branch": "arrow-11.0-caf-sm8150"
 	},
 	{
 		"remote": "github",
 		"repository": "ArrowOS/android_hardware_qcom_audio",
-		"target_path": "hardware/qcom-caf/sm8150_ginkgo/audio",
+		"target_path": "hardware/qcom-caf/sm8150/audio",
 		"branch": "arrow-11.0-caf-sm8150"
 	},
 	{
 		"remote": "github",
 		"repository": "ArrowOS/android_hardware_qcom_media",
-		"target_path": "hardware/qcom-caf/sm8150_ginkgo/media",
+		"target_path": "hardware/qcom-caf/sm8150/media",
 		"branch": "arrow-11.0-caf-sm8150"
 	},
 	{
