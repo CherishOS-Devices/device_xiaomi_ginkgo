@@ -1,0 +1,41 @@
+[
+	{
+		"remote": "CherishOS-Devices",
+		"repository": "kernel_xiaomi_ginkgo",
+		"target_path": "kernel/xiaomi/ginkgo"
+	},
+	{
+		"remote": "CherishOS-Devices",
+		"repository": "vendor_xiaomi_ginkgo",
+		"target_path": "vendor/xiaomi/ginkgo"
+	},
+	{
+		"remote": "CherishOS-Devices",
+		"repository": "vendor_MiuiCamera",
+		"target_path": "vendor/MiuiCamera"
+	},
+	{
+		"remote": "github",
+		"repository": "ArrowOS/android_hardware_qcom_display",
+		"target_path": "hardware/qcom-caf/sm8150_ginkgo/display",
+                "branch": "arrow-11.0-caf-sm8150"
+	},
+	{
+		"remote": "github",
+		"repository": "ArrowOS/android_hardware_qcom_audio",
+		"target_path": "hardware/qcom-caf/sm8150_ginkgo/audio",
+		"branch": "arrow-11.0-caf-sm8150"
+	},
+	{
+		"remote": "github",
+		"repository": "ArrowOS/android_hardware_qcom_media",
+		"target_path": "hardware/qcom-caf/sm8150_ginkgo/media",
+		"branch": "arrow-11.0-caf-sm8150"
+	},
+	{
+		"remote": "github",
+		"repository": "ThankYouMario/proprietary_vendor_qcom_sdclang",
+		"target_path": "prebuilts/clang/host/linux-x86/clang-sdllvm",
+                "branch": "ruby-12"
+	}
+]

@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 RevengeOS
+# Copyright (C) 2020 CherishOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_ginkgo.mk
+    $(LOCAL_DIR)/cherish_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_ginkgo-user \
-    revengeos_ginkgo-userdebug \
-    revengeos_ginkgo-eng
+    cherish_ginkgo-user \
+    cherish_ginkgo-userdebug \
+    cherish_ginkgo-eng
