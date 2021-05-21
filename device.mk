@@ -380,9 +380,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     kernel/xiaomi/ginkgo
 
-QCOM_SOONG_NAMESPACE := \
-    hardware/qcom-caf/sm8150_ginkgo
-
 # Telephony
 PRODUCT_PACKAGES += \
     qti-telephony-hidl-wrapper \
