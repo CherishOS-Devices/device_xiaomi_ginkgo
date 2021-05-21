@@ -11,7 +11,7 @@
 	},
 	{
 		"remote": "CherishOS-Devices",
-		"repository": "vendor_miuicamera",
+		"repository": "vendor_MiuiCamera",
 		"target_path": "vendor/miuicamera"
 	},
 	{
